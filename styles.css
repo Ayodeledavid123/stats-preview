@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+body{
+    font-size: 16px;
+    font-family: Lexend Deca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stat-container{
+    display: flex;
+    flex-direction: row;
+    width: 60em;
+    height: 25em;
+}
+.sedans{
+    background-color:  hsl(31, 77%, 52%);
+    color:  hsla(0, 0%, 100%, 0.75);
+    padding: 1.6em 2.5em 1.6em 2.5em;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 1.6em 2.5em 1.6em 2.5em;   
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 1.6em 2.5em 1.6em 2.5em;
+}
+.suvs p{
+    width: 200px;
+    height: 130px;
+}
+.luxury p{
+    width: 200px;
+    height: 130px;
+}
+.sedans p{
+    width: 200px;
+    height: 130px;
+}
+.button{
+    margin-top: 2.5em;
+    
+}
+button{
+    border: white 2px solid;
+    border-radius: 20px;
+    width: 10.0em;
+    height: 3em;
+}
+.sedans .button button{
+    color: hsl(31, 77%, 52%);
+}
+.suvs .button button{
+    color: hsl(184, 100%, 22%);
+}
+.luxury .button button{
+    color: hsl(179, 100%, 13%);
+}
+.sedans h3{
+    font-family: Big Shoulders Display;
+    font-size: xx-large;
+}
+.suvs h3{
+    font-family: Big Shoulders Display;
+    font-size: xx-large;
+}
+.luxury h3{
+    font-family: Big Shoulders Display;
+    font-size: xx-large;
+}
+@media (max-width:675px){
+.stat-container{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+} 
+    
+
