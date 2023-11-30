@@ -5,11 +5,9 @@ body{
     font-family: Lexend Deca;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .stat-container{
     display: flex;
-    flex-direction: row;
     width: 60em;
     height: 25em;
 }
@@ -75,7 +73,6 @@ button{
 .stat-container{
     display: flex;
     flex-direction: column; 
-    justify-content: center;
     align-items: center;
 }
 } 
