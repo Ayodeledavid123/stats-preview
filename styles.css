@@ -5,6 +5,7 @@ body{
     font-family: Lexend Deca;
     display: flex;
     justify-content: center;
+    
 }
 .stat-container{
     display: flex;
@@ -94,6 +95,7 @@ color: white;
     flex-direction: column; 
     align-items: center;
     width: 280px;
+    margin-left: 0px;
 }
 } 
     
